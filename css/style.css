@@ -1,0 +1,343 @@
+/*Colors*/
+/*Herramientas*/
+/*Mixins*/
+html {
+  font-size: 20px; }
+
+.body {
+  margin: 0;
+  padding: 0;
+  background-color: #f6f5f5; }
+
+.header {
+  background-color: #f6f5f5;
+  text-align: center; }
+  .header .h1-header {
+    font-family: "Anton", sans-serif;
+    font-size: 80px; }
+  .header .logo-header {
+    width: 10%;
+    height: 100%; }
+  .header .h2-header {
+    font-family: "Anton", sans-serif;
+    font-size: 40px;
+    padding-bottom: 10px;
+    margin: 0; }
+
+.container-fluid {
+  background-color: #145374;
+  margin: 0;
+  padding: 0; }
+  .container-fluid .ul-nav {
+    list-style: none;
+    font-family: "Montserrat", sans-serif;
+    text-align: center;
+    padding-left: auto;
+    margin-bottom: 0; }
+  .container-fluid .input-nav {
+    display: none; }
+  .container-fluid .label-nav {
+    display: none; }
+  .container-fluid .li-nav {
+    display: inline-block;
+    text-align: center;
+    text-transform: capitalize;
+    font-size: 30px;
+    border: 3px solid #0097A7;
+    border-radius: 10px;
+    padding: 5px;
+    margin-right: 5px; }
+    .container-fluid .li-nav:hover {
+      background-color: #B2EBF2;
+      animation: pulse;
+      animation-duration: 5s; }
+  .container-fluid .a-nav {
+    text-decoration: none;
+    color: #FFFFFF; }
+    .container-fluid .a-nav:hover {
+      color: #212121;
+      animation: pulse;
+      animation-duration: 5s; }
+
+.galeria-index {
+  width: 100%;
+  height: 100%;
+  background-color: #f6f5f5; }
+  .galeria-index .h2-galeria {
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 70px;
+    font-family: "Anton", sans-serif; }
+
+.noticias {
+  width: 100%;
+  height: 100%;
+  background-color: #f6f5f5; }
+  .noticias .h2-noticias {
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 70px;
+    font-family: "Anton", sans-serif; }
+  .noticias .card {
+    background-color: #00334e;
+    border-radius: 5px; }
+    .noticias .card .mb-0 {
+      background-color: #145374; }
+    .noticias .card .card-body {
+      font-family: "Montserrat", sans-serif;
+      color: #FFFFFF; }
+    .noticias .card .btn-link {
+      text-decoration: none;
+      color: #FFFFFF; }
+
+.newsletter {
+  width: 100%;
+  height: 100%;
+  background-color: #f6f5f5; }
+  .newsletter .h2-newsletter {
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 70px;
+    font-family: "Anton", sans-serif; }
+  .newsletter .form {
+    text-align: center;
+    font-family: "Montserrat", sans-serif;
+    color: #212121;
+    padding-bottom: 5%; }
+  .newsletter .deco {
+    font-family: "Anton", sans-serif;
+    font-size: 30px;
+    text-align: center; }
+
+.footer {
+  widows: 100%;
+  height: auto;
+  background-color: #145374;
+  font-family: "Montserrat", sans-serif;
+  font-size: 30px;
+  text-align: center; }
+  .footer .redes {
+    text-align: center;
+    font-family: "Anton", sans-serif;
+    font-size: 30px;
+    text-transform: capitalize;
+    padding-left: 30px; }
+  .footer .ul-footer {
+    list-style: none;
+    text-align: center; }
+  .footer .li-footer {
+    display: inline;
+    padding-right: 10px; }
+  .footer .fa-facebook:before {
+    color: #FFFFFF; }
+  .footer .fa-instagram:before {
+    color: #FFFFFF; }
+  .footer .fa-twitter-square:before {
+    color: #FFFFFF; }
+  .footer .fa-youtube:before {
+    color: #FFFFFF; }
+  .footer .pfooter {
+    margin: 0;
+    text-decoration: none; }
+    .footer .pfooter .a-footer:hover {
+      text-decoration: none; }
+
+/*Galeria*/
+.container-fluid {
+  border: 10px solid #145374; }
+
+.container {
+  background-color: #145374;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  width: 100%;
+  height: auto; }
+
+.ul-list-img {
+  list-style: none;
+  width: 100%;
+  height: auto;
+  padding-left: 0;
+  padding-top: 20px; }
+  .ul-list-img .li-list-img {
+    display: inline-block; }
+
+.card-text {
+  font-family: "Montserrat", sans-serif; }
+
+/*Noticias*/
+.noticias .h3-noticias {
+  font-family: "Anton", sans-serif;
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 45px; }
+
+/*Parallax*/
+.parallax {
+  height: 800px;
+  background-image: url("../img/parallax-2.jpg");
+  background-size: cover;
+  background-attachment: fixed; }
+
+.parallax-galeria {
+  height: 800px;
+  background-image: url("../img/parallax-n.jpg");
+  background-size: cover;
+  background-attachment: fixed; }
+
+.parallax-noticias {
+  height: 800px;
+  background-image: url("../img/parallax-m.jpg");
+  background-size: cover;
+  background-attachment: fixed; }
+
+.parallax-2 {
+  height: 800px;
+  background-image: url("../img/parallax.jpg");
+  background-size: cover;
+  background-attachment: fixed; }
+
+.parallax-wnba {
+  height: 800px;
+  background-image: url("../img/parallax-wnba.jpg");
+  background-size: cover;
+  background-attachment: fixed; }
+
+.parallax-tienda {
+  height: 800px;
+  background-image: url("../img/parallax-tienda.gif");
+  background-size: cover;
+  background-attachment: fixed; }
+
+/*Tienda*/
+.titulo-tienda {
+  text-transform: uppercase;
+  text-align: center;
+  font-size: 70px;
+  font-family: "Anton", sans-serif; }
+
+.ul-tienda {
+  background-color: #145374;
+  list-style: none; }
+  .ul-tienda .li-tienda {
+    display: inline-block;
+    padding: 10px;
+    border: 2px solid #ffffff;
+    border-radius: 10px;
+    margin: 5px; }
+    .ul-tienda .li-tienda .card {
+      width: 16rem; }
+
+/*Boton ir arriba*/
+.ir-arriba {
+  display: inline-block;
+  padding: 20px;
+  background: #db6400;
+  font-size: 20px;
+  color: #fff;
+  cursor: pointer;
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  border-radius: 10px;
+  border: 0; }
+
+/*Redes Soc*/
+.fa-facebook {
+  font-size: 40px; }
+
+.fa-instagram {
+  font-size: 40px; }
+
+.fa-twitter-square {
+  font-size: 40px; }
+
+.fa-youtube {
+  font-size: 40px; }
+
+/*MEDIA QUERIES*/
+@media screen and (max-width: 900px) {
+  .header {
+    font-family: "Anton", sans-serif; }
+    .header .h1-header {
+      font-size: 40px; }
+  .galeria-index .h2-galeria {
+    font-size: 40px; }
+  .noticias .h2-noticias {
+    font-size: 40px; }
+  .container-fluid {
+    margin: 0;
+    padding: 0; }
+    .container-fluid .ul-nav {
+      list-style: none;
+      font-family: "Montserrat", sans-serif;
+      display: none;
+      padding-left: 5px;
+      text-align: center; }
+    .container-fluid input:checked ~ ul {
+      display: block; }
+    .container-fluid .input-nav {
+      display: none; }
+    .container-fluid .label-nav {
+      box-sizing: border-box;
+      display: inline-block;
+      border: 3px solid #0097A7;
+      width: 100%;
+      height: 100%;
+      line-height: 30px;
+      font-weight: bold;
+      text-align: center;
+      user-select: none; }
+    .container-fluid .li-nav {
+      display: block;
+      background: #f6f5f5;
+      margin: 0;
+      margin-bottom: 5px;
+      padding: 5px;
+      list-style: none;
+      border: 2px solid #FFFFFF;
+      height: 56px; }
+    .container-fluid .a-nav {
+      color: #212121;
+      font-weight: bold;
+      text-transform: capitalize;
+      font-size: 20px; }
+  /*Menu responsive*/
+  .newsletter {
+    width: 100%;
+    height: 100%;
+    background-color: #f6f5f5; }
+    .newsletter .h2-newsletter {
+      font-size: 40px; }
+  /*Galeria*/
+  .card {
+    background-color: #B2EBF2;
+    border: 2px solid #f6f5f5;
+    padding-top: 10px;
+    padding-bottom: 10px; }
+  .ul-tienda {
+    width: 100%;
+    height: auto; }
+    .ul-tienda .li-tienda {
+      margin: 5px auto; }
+      .ul-tienda .li-tienda .card {
+        width: 100%; }
+  .parallax-tienda {
+    display: none; }
+  .parallax {
+    display: none; }
+  .parallax-wnba {
+    display: none; }
+  .parallax-2 {
+    display: none; }
+  .ir-arriba {
+    border: 0;
+    padding: 5px;
+    bottom: 15px;
+    right: 10px; }
+    .ir-arriba .fa-arrow-circle-up {
+      font-size: 20px; }
+  .pfooter {
+    font-size: 20px; } }
+
+/*MediaQuerie*/

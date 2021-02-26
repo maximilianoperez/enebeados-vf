@@ -1,0 +1,17 @@
+Sabado 24/10 
+
+Se realiza todo el index completo desde cero con los estilos correspondientes en sass. 
+Se realiza en el index el metodo responsivo. 
+El resultado es bastante agradable. 
+
+Domingo 25/10 
+
+***Se debera empezar con la seccion galeria y noticias de la misma forma que el index aplicando estilos y responsive***
+
+*Solo queda pendiente la seccion tienda y revisar los detalles de diseño.*
+
+
+PARA HACER LUNES 2 
+
+HACER RESPONSIVE LA SECCION TIENDA 
+QUITAR PARALLAX DE LA SECCION REVISAR DETALLES DE DISEÑO 
